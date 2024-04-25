@@ -86,3 +86,8 @@ select *
 from transcation t right outer join customers c
 on t.customer_id = c.customers_id;
 
+
+select customer_id, customer_name, price
+from transcation t right outer join customers c
+on t.customer_id = c.customers_id;
+
